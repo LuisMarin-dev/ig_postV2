@@ -35,7 +35,6 @@ body,html {
     height: 100%;
     margin-left: 5px;
     border-radius: 100%;
-    /* background: red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +52,6 @@ body,html {
 .username-location {
     width: 80%;
     height: 100%;
-    /* background: cyan; */
     display: flex;
     align-items: center;
 }
@@ -69,12 +67,11 @@ body,html {
     display: flex;
     justify-content: end;
     align-items: center;
-    /* background: greenyellow; */
 }
 
 #post-image-container {
     width: 100%;
-    height: 50%;
+    height: 51%;
 }
 
 video {
@@ -87,6 +84,7 @@ video {
     padding-top: 5px;
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .heart-comment-share-container {
@@ -105,4 +103,24 @@ video {
 
 .save-button {
     margin-right: 3px;
+}
+
+.like-count-container {
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.like-count-container p {
+    padding-left: 15px;
+}
+
+.post-caption {
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+}
+
+.post-caption p {
+    padding-inline: 10px;
 }
